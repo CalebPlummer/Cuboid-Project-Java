@@ -16,8 +16,8 @@ package cuboid;
 
 /**
  *
- * @author
- * @email 
+ * @author cplummer
+ * @email mail.caleb.plummer@gmail.com
  */
 public class Main {
 
@@ -27,6 +27,11 @@ public class Main {
     public static void main(String[] args) {
         //Add code here to fully test your Cuboid Class.
         //Be sure to test all constructors and methods.
+        Cuboid<Double> cuboid1 = new Cuboid<>();
+        cuboid1.setLength(10.5);
+        cuboid1.setWidth(11.5);
+        cuboid1.setHeight(12.5);
+        System.out.println(cuboid1.toString());
     }
     
 }
