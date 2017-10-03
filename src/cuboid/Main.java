@@ -31,7 +31,10 @@ public class Main {
         cuboid1.setLength(10.5);
         cuboid1.setWidth(11.5);
         cuboid1.setHeight(12.5);
+        
+        Cuboid<Integer> cuboid2 = new Cuboid<>(1, 2, 3);
         System.out.println(cuboid1.toString());
+        System.out.println(cuboid2.toString());
     }
     
 }
